@@ -1,0 +1,112 @@
+2026-04-04 16:56:39,369 - INFO - Fetching data for RELIANCE.NS
+2026-04-04 16:56:42,291 - ERROR - Error fetching RELIANCE.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:42,291 - INFO - Fetching data for RELIANCE.NS
+2026-04-04 16:56:42,557 - ERROR - Error fetching RELIANCE.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:44,562 - INFO - Fetching data for TCS.NS
+2026-04-04 16:56:44,927 - ERROR - Error fetching TCS.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:44,927 - INFO - Fetching data for TCS.NS
+2026-04-04 16:56:45,232 - ERROR - Error fetching TCS.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:47,233 - INFO - Fetching data for HDFCBANK.NS
+2026-04-04 16:56:47,626 - ERROR - Error fetching HDFCBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:47,626 - INFO - Fetching data for HDFCBANK.NS
+2026-04-04 16:56:47,871 - ERROR - Error fetching HDFCBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:49,873 - INFO - Fetching data for ICICIBANK.NS
+2026-04-04 16:56:50,262 - ERROR - Error fetching ICICIBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:50,262 - INFO - Fetching data for ICICIBANK.NS
+2026-04-04 16:56:50,802 - ERROR - Error fetching ICICIBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:52,807 - INFO - Fetching data for INFY.NS
+2026-04-04 16:56:53,269 - ERROR - Error fetching INFY.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:53,269 - INFO - Fetching data for INFY.NS
+2026-04-04 16:56:53,524 - ERROR - Error fetching INFY.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:55,525 - INFO - Fetching data for SBIN.NS
+2026-04-04 16:56:56,714 - ERROR - Error fetching SBIN.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:56,714 - INFO - Fetching data for SBIN.NS
+2026-04-04 16:56:56,972 - ERROR - Error fetching SBIN.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:58,974 - INFO - Fetching data for AXISBANK.NS
+2026-04-04 16:56:59,350 - ERROR - Error fetching AXISBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:56:59,350 - INFO - Fetching data for AXISBANK.NS
+2026-04-04 16:56:59,649 - ERROR - Error fetching AXISBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:57:01,650 - INFO - Fetching data for BAJFINANCE.NS
+2026-04-04 16:57:02,083 - ERROR - Error fetching BAJFINANCE.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 16:57:02,083 - INFO - Fetching data for BAJFINANCE.NS
+2026-04-04 16:57:02,359 - ERROR - Error fetching BAJFINANCE.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:42,620 - INFO - Fetching data for RELIANCE.NS
+2026-04-04 17:00:43,345 - ERROR - Error fetching RELIANCE.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:43,345 - INFO - Fetching data for RELIANCE.NS
+2026-04-04 17:00:43,587 - ERROR - Error fetching RELIANCE.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:43,587 - ERROR - Pipline failed for RELIANCE.NS : 'NoneType' object has no attribute 'head'
+2026-04-04 17:00:43,587 - INFO - Fetching data for TCS.NS
+2026-04-04 17:00:43,854 - ERROR - Error fetching TCS.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:43,854 - INFO - Fetching data for TCS.NS
+2026-04-04 17:00:44,107 - ERROR - Error fetching TCS.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:44,107 - ERROR - Pipline failed for TCS.NS : 'NoneType' object has no attribute 'head'
+2026-04-04 17:00:44,107 - INFO - Fetching data for HDFCBANK.NS
+2026-04-04 17:00:44,433 - ERROR - Error fetching HDFCBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:44,433 - INFO - Fetching data for HDFCBANK.NS
+2026-04-04 17:00:44,714 - ERROR - Error fetching HDFCBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:44,714 - ERROR - Pipline failed for HDFCBANK.NS : 'NoneType' object has no attribute 'head'
+2026-04-04 17:00:44,714 - INFO - Fetching data for ICICIBANK.NS
+2026-04-04 17:00:44,999 - ERROR - Error fetching ICICIBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:44,999 - INFO - Fetching data for ICICIBANK.NS
+2026-04-04 17:00:45,243 - ERROR - Error fetching ICICIBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:45,243 - ERROR - Pipline failed for ICICIBANK.NS : 'NoneType' object has no attribute 'head'
+2026-04-04 17:00:45,243 - INFO - Fetching data for INFY.NS
+2026-04-04 17:00:45,570 - ERROR - Error fetching INFY.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:45,570 - INFO - Fetching data for INFY.NS
+2026-04-04 17:00:45,821 - ERROR - Error fetching INFY.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:45,821 - ERROR - Pipline failed for INFY.NS : 'NoneType' object has no attribute 'head'
+2026-04-04 17:00:45,821 - INFO - Fetching data for SBIN.NS
+2026-04-04 17:00:46,141 - ERROR - Error fetching SBIN.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:46,141 - INFO - Fetching data for SBIN.NS
+2026-04-04 17:00:46,388 - ERROR - Error fetching SBIN.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:46,388 - ERROR - Pipline failed for SBIN.NS : 'NoneType' object has no attribute 'head'
+2026-04-04 17:00:46,388 - INFO - Fetching data for AXISBANK.NS
+2026-04-04 17:00:46,652 - ERROR - Error fetching AXISBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:46,652 - INFO - Fetching data for AXISBANK.NS
+2026-04-04 17:00:46,904 - ERROR - Error fetching AXISBANK.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:46,904 - ERROR - Pipline failed for AXISBANK.NS : 'NoneType' object has no attribute 'head'
+2026-04-04 17:00:46,904 - INFO - Fetching data for BAJFINANCE.NS
+2026-04-04 17:00:47,181 - ERROR - Error fetching BAJFINANCE.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:47,181 - INFO - Fetching data for BAJFINANCE.NS
+2026-04-04 17:00:47,469 - ERROR - Error fetching BAJFINANCE.NS : 'tuple' object has no attribute 'lower'
+2026-04-04 17:00:47,469 - ERROR - Pipline failed for BAJFINANCE.NS : 'NoneType' object has no attribute 'head'
+2026-04-04 17:05:03,920 - INFO - Fetching data for RELIANCE.NS
+2026-04-04 17:05:04,688 - INFO - Fetching data for RELIANCE.NS
+2026-04-04 17:05:04,954 - ERROR - Pipline failed for RELIANCE.NS : [WinError 3] The system cannot find the path specified: 'data/raw / symbol = RELIANCE.NS'
+2026-04-04 17:05:04,954 - INFO - Fetching data for TCS.NS
+2026-04-04 17:05:05,238 - INFO - Fetching data for TCS.NS
+2026-04-04 17:05:05,538 - ERROR - Pipline failed for TCS.NS : [WinError 3] The system cannot find the path specified: 'data/raw / symbol = TCS.NS'
+2026-04-04 17:05:05,538 - INFO - Fetching data for HDFCBANK.NS
+2026-04-04 17:05:05,861 - INFO - Fetching data for HDFCBANK.NS
+2026-04-04 17:05:06,108 - ERROR - Pipline failed for HDFCBANK.NS : [WinError 3] The system cannot find the path specified: 'data/raw / symbol = HDFCBANK.NS'
+2026-04-04 17:05:06,108 - INFO - Fetching data for ICICIBANK.NS
+2026-04-04 17:05:06,364 - INFO - Fetching data for ICICIBANK.NS
+2026-04-04 17:05:06,611 - ERROR - Pipline failed for ICICIBANK.NS : [WinError 3] The system cannot find the path specified: 'data/raw / symbol = ICICIBANK.NS'
+2026-04-04 17:05:06,611 - INFO - Fetching data for INFY.NS
+2026-04-04 17:05:06,950 - INFO - Fetching data for INFY.NS
+2026-04-04 17:05:07,212 - ERROR - Pipline failed for INFY.NS : [WinError 3] The system cannot find the path specified: 'data/raw / symbol = INFY.NS'
+2026-04-04 17:05:07,212 - INFO - Fetching data for SBIN.NS
+2026-04-04 17:05:07,596 - INFO - Fetching data for SBIN.NS
+2026-04-04 17:05:07,864 - ERROR - Pipline failed for SBIN.NS : [WinError 3] The system cannot find the path specified: 'data/raw / symbol = SBIN.NS'
+2026-04-04 17:05:07,864 - INFO - Fetching data for AXISBANK.NS
+2026-04-04 17:05:08,113 - INFO - Fetching data for AXISBANK.NS
+2026-04-04 17:05:08,349 - ERROR - Pipline failed for AXISBANK.NS : [WinError 3] The system cannot find the path specified: 'data/raw / symbol = AXISBANK.NS'
+2026-04-04 17:05:08,349 - INFO - Fetching data for BAJFINANCE.NS
+2026-04-04 17:05:08,619 - INFO - Fetching data for BAJFINANCE.NS
+2026-04-04 17:05:08,869 - ERROR - Pipline failed for BAJFINANCE.NS : [WinError 3] The system cannot find the path specified: 'data/raw / symbol = BAJFINANCE.NS'
+2026-04-04 17:07:44,569 - INFO - Fetching data for RELIANCE.NS
+2026-04-04 17:07:45,296 - INFO - Fetching data for RELIANCE.NS
+2026-04-04 17:07:49,977 - INFO - Fetching data for TCS.NS
+2026-04-04 17:07:50,245 - INFO - Fetching data for TCS.NS
+2026-04-04 17:07:53,963 - INFO - Fetching data for HDFCBANK.NS
+2026-04-04 17:07:54,231 - INFO - Fetching data for HDFCBANK.NS
+2026-04-04 17:07:57,898 - INFO - Fetching data for ICICIBANK.NS
+2026-04-04 17:07:58,216 - INFO - Fetching data for ICICIBANK.NS
+2026-04-04 17:08:01,999 - INFO - Fetching data for INFY.NS
+2026-04-04 17:08:02,337 - INFO - Fetching data for INFY.NS
+2026-04-04 17:08:05,997 - INFO - Fetching data for SBIN.NS
+2026-04-04 17:08:06,286 - INFO - Fetching data for SBIN.NS
+2026-04-04 17:08:09,868 - INFO - Fetching data for AXISBANK.NS
+2026-04-04 17:08:10,254 - INFO - Fetching data for AXISBANK.NS
+2026-04-04 17:08:14,007 - INFO - Fetching data for BAJFINANCE.NS
+2026-04-04 17:08:14,336 - INFO - Fetching data for BAJFINANCE.NS

@@ -33,7 +33,7 @@ def fetch_stock_data(ticker, interval="1d", period="1y"):
         df.reset_index(inplace = True)
 
         #standardize column names
-        df.columns = [col.lower() for col in df.columns]
+        df.columns = [col[0].lower() if isinstance(col, tuple) else col.lower() for col in df.columns]
 
         # add symbol column
         df["symbol"] = ticker
@@ -63,8 +63,11 @@ def save_partitioned_data(df):
     df["date"] = df["datetime"].dt.date
 
     for (symbol, date), group in df.groupby(["symbol", "date"]):
-        folder_path = f"{BASE_PATH} / symbol = {symbol}/date={date}"
-        os.makedirs()
+        folder_path = f"{BASE_PATH}/symbol = {symbol}/date={date}"
+        os.makedirs(folder_path, exist_ok= True)
+
+        file_path = f"{folder_path}/data.parquet"
+        group.to_parquet(file_path, engine="pyarrow", index = False)
     
 # Main pipleline
 
@@ -78,14 +81,16 @@ def run_pipeline():
             intraday_df = fetch_stock_data(ticker, interval="5m", period= "5d")
 
             if hist_df is not None:
-                hist_df.rename(columns={"date" : "datetime"} inplace = True)
+                hist_df.rename(columns={"date" : "datetime"}, inplace = True)
                 hist_df = clean_data(hist_df)
-                save_partitioned_data(hist_of)
+                save_partitioned_data(hist_df)
 
             if intraday_df is not None:
                 intraday_df.rename(columns={"datetime" : "datetime"}, inplace = True)
                 intraday_df = clean_data(intraday_df)
                 save_partitioned_data(intraday_df)
+            
+        
             
             # API rate limit handling
             time.sleep(2)
@@ -97,5 +102,4 @@ def run_pipeline():
 
 if __name__ == "__main__":
     run_pipeline()
-
 
