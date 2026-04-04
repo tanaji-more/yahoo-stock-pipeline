@@ -1,0 +1,6 @@
+pandas
+yfinance
+boto3
+snowflake-connector-python
+apache-airflow
+dbt-core
