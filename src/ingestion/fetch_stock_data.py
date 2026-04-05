@@ -98,8 +98,7 @@ def run_pipeline():
         except Exception as e:
             logging.error(f"Pipline failed for {ticker} : {e}")
 
-# run the pipeline
+# run the pipeline for all tickers
 
 if __name__ == "__main__":
     run_pipeline()
-
