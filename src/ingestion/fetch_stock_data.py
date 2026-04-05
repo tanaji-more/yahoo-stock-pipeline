@@ -69,7 +69,7 @@ def save_partitioned_data(df):
         file_path = f"{folder_path}/data.parquet"
         group.to_parquet(file_path, engine="pyarrow", index = False)
     
-# Main pipleline
+# Main pipleline function to run the entire process
 
 def run_pipeline():
     for ticker in TICKERS:
