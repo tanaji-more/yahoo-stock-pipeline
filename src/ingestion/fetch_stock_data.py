@@ -42,7 +42,6 @@ def fetch_stock_data(ticker, interval="1d", period="1y"):
 
     except Exception as e:
         logging.error(f"Error fetching {ticker} : {e}")
-    
 
 # Cleaning function to handle missing values and outliers
 def clean_data(df):
